@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+	<event name="AmbientHen">
+        <nominal>4</nominal>
+        <min>1</min>
+        <max>2</max>
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <saferadius>50</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>50</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_GallusGallusDomesticus"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_GallusGallusDomesticusF_Brown"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_GallusGallusDomesticusF_Spotted"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_GallusGallusDomesticusF_White"/>
+        </children>
+    </event>
+    <event name="AnimalBear">
+        <nominal>80</nominal>
+        <min>40</min>
+        <max>60</max>
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <saferadius>90</saferadius>
+        <distanceradius>90</distanceradius>
+        <cleanupradius>90</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_UrsusArctos"/>
+        </children>
+    </event>
+    <event name="AnimalCow">
+        <nominal>4</nominal>
+        <min>1</min>
+        <max>2</max>
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <saferadius>80</saferadius>
+        <distanceradius>80</distanceradius>
+        <cleanupradius>80</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_BosTaurusF_Brown"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_BosTaurusF_Spotted"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_BosTaurusF_White"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_BosTaurus_Brown"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_BosTaurus_Spotted"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_BosTaurus_White"/>
+        </children>
+    </event>
+    <event name="ItemPlanks">
+        <nominal>4</nominal>
+        <min>1</min>
+        <max>2</max>
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>100</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="50" min="30" type="PileOfWoodenPlanks"/>
+        </children>
+    </event>
+    <event name="Loot">
+        <nominal>0</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>0</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>50</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children/>
+    </event>
+	<event name="StaticDynamicEvent1">
+        <nominal>5</nominal><!-- this should match the amount of spawn points you want it at --> 
+        <min>0</min><!-- leave this at 0 -->
+        <max>0</max><!-- leave this at 0 -->
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <saferadius>45</saferadius>
+        <distanceradius>45</distanceradius>
+        <cleanupradius>45</cleanupradius>
+        <secondary></secondary><!-- see bellow -->
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="4" lootmin="2" max="5" min="3" type="ZmbM_ConstrWorkerNormal_Beige"/>
+        </children>
+    </event>
+	<event name="StaticDynamicEvent2">
+        <nominal>5</nominal><!-- this should match the amount of spawn points you want it at --> 
+        <min>0</min><!-- leave this at 0 -->
+        <max>0</max><!-- leave this at 0 -->
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <saferadius>45</saferadius>
+        <distanceradius>45</distanceradius>
+        <cleanupradius>45</cleanupradius>
+        <secondary></secondary><!-- see bellow -->
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="4" lootmin="2" max="5" min="3" type="ZmbM_priestPopSkinny"/>
+        </children>
+    </event>
+	<event name="StaticDynamicEvent3">
+        <nominal>3</nominal><!-- this should match the amount of spawn points you want it at --> 
+        <min>0</min><!-- leave this at 0 -->
+        <max>0</max><!-- leave this at 0 -->
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <saferadius>45</saferadius>
+        <distanceradius>45</distanceradius>
+        <cleanupradius>45</cleanupradius>
+        <secondary></secondary><!-- see bellow -->
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="4" lootmin="2" max="5" min="3" type="ZmbM_PolicemanSpecForce"/>
+        </children>
+    </event>
+	<event name="StaticDynamicEvent4">
+        <nominal>3</nominal><!-- this should match the amount of spawn points you want it at --> 
+        <min>0</min><!-- leave this at 0 -->
+        <max>0</max><!-- leave this at 0 -->
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <saferadius>45</saferadius>
+        <distanceradius>45</distanceradius>
+        <cleanupradius>45</cleanupradius>
+        <secondary></secondary><!-- see bellow -->
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="4" lootmin="2" max="5" min="3" type="ZmbF_NurseFat"/>
+        </children>
+    </event>
+	<event name="StaticDynamicEvent5">
+        <nominal>2</nominal><!-- this should match the amount of spawn points you want it at --> 
+        <min>0</min><!-- leave this at 0 -->
+        <max>0</max><!-- leave this at 0 -->
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <saferadius>45</saferadius>
+        <distanceradius>45</distanceradius>
+        <cleanupradius>45</cleanupradius>
+        <secondary></secondary><!-- see bellow -->
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="4" lootmin="2" max="5" min="3" type="ZmbF_JoggerSkinny_Blue"/>
+        </children>
+    </event>
+	<event name="StaticDynamicEvent6">
+        <nominal>4</nominal><!-- this should match the amount of spawn points you want it at --> 
+        <min>0</min><!-- leave this at 0 -->
+        <max>0</max><!-- leave this at 0 -->
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <saferadius>45</saferadius>
+        <distanceradius>45</distanceradius>
+        <cleanupradius>45</cleanupradius>
+        <secondary></secondary><!-- see bellow -->
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="4" lootmin="2" max="5" min="3" type="ZmbF_HikerSkinny_Red"/>
+        </children>
+    </event>
+	<event name="StaticDynamicEvent7">
+        <nominal>1</nominal><!-- this should match the amount of spawn points you want it at --> 
+        <min>0</min><!-- leave this at 0 -->
+        <max>0</max><!-- leave this at 0 -->
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <saferadius>45</saferadius>
+        <distanceradius>45</distanceradius>
+        <cleanupradius>45</cleanupradius>
+        <secondary></secondary><!-- see bellow -->
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="4" lootmin="2" max="5" min="3" type="ZmbM_usSoldier_normal_Desert"/>
+        </children>
+    </event>
+	<event name="StaticDynamicEvent8">
+        <nominal>1000</nominal>
+        <min>50</min>
+        <max>80</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>30</saferadius>
+        <distanceradius>30</distanceradius>
+        <cleanupradius>30</cleanupradius>
+        <secondary>InfectedPrisoner</secondary><!-- see bellow -->
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>player</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="2" lootmin="1" max="3" min="1" type="ZmbM_PrisonerSkinny"/>
+        </children>
+    </event>
+</events>
