@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<messages>
+    <message>
+        <deadline>600</deadline>
+        <shutdown>1</shutdown>
+        <text>#name will shutdown in #tmin minutes.</text>
+    </message>
+    <message>
+        <repeat>15</repeat>
+        <text>You're on #name server</text>
+    </message>
+    <message>
+        <delay>10</delay>
+        <repeat>50</repeat>
+        <onconnect>1</onconnect>
+        <text>You are on dipsteak map made by DipWhipRip. Map is still under construction. Join official dipsteak map Discord at: discord.gg/JRYPvzYVww</text>
+    </message>
+    <message>
+        <delay>2</delay>
+        <onconnect>1</onconnect>
+        <text>Welcome to #name</text>
+    </message>
+</messages>
